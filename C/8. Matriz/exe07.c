@@ -7,7 +7,6 @@ int main(){
     int matriz[3][3];
     int somaDiagonalSecundaria = 0;
 
-    // Leitura dos valores da matriz
     for (int i = 0; i < 3; i++) {
         for (int j = 0; j < 3; j++) {
             printf("Digite o valor para a posição [%d][%d]: ", i, j);
@@ -15,12 +14,10 @@ int main(){
         }
     }
 
-    // Cálculo da soma da diagonal secundária
     for (int i = 0; i < 3; i++) {
-        somaDiagonalSecundaria += matriz[i][2 - i]; // Acessa os elementos da diagonal secundária
+        somaDiagonalSecundaria += matriz[i][2 - i]; 
     }
 
-    // Exibição do resultado
     printf("Soma dos valores da diagonal secundária: %d\n", somaDiagonalSecundaria);
 
     return 0;

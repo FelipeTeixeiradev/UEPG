@@ -8,9 +8,11 @@ int main() {
     int numero = 0;
 
     do {
-        soma += numero;
-        numero += 2; // Incrementa para o próximo número par
-        contador++;
+        if (numero % 2 == 0) {
+            soma += numero;
+            contador++;
+        }
+        numero++;
     } while (contador < 50);
 
     printf("A soma dos 50 primeiros números pares é: %d\n", soma);

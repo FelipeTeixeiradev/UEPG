@@ -7,7 +7,6 @@ tela os dados do array C.*/
 int main() {
     int A[10], B[10], C[10];
 
-    // Leitura dos valores para os arrays A e B
     for (int i = 0; i < 10; i++) {
         printf("Digite o valor %d para o array A: ", i + 1);
         scanf("%d", &A[i]);
@@ -15,12 +14,10 @@ int main() {
         scanf("%d", &B[i]);
     }
 
-    // Cálculo do array C = A - B
     for (int i = 0; i < 10; i++) {
         C[i] = A[i] - B[i];
     }
 
-    // Exibição dos valores do array C
     printf("Valores do array C (A - B):\n");
     for (int i = 0; i < 10; i++) {
         printf("%d ", C[i]);

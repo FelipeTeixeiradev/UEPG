@@ -31,7 +31,7 @@ int main(){
         printf("O cliente tem direito a um crédito de 50%% do valor do saldo médio.\n");
     } else {
         printf("Saldo médio inválido.\n");
-        return 1; // Exit with error
+        return 1; // Faz sair quando dá erro
     }
 
     printf("Saldo médio: %.2f\n", saldo_medio);

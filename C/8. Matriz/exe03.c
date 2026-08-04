@@ -7,18 +7,16 @@ na tela.*/
 int main(){
     int matriz[5][5];
 
-    // Preenchimento da matriz
     for (int i = 0; i < 5; i++) {
         for (int j = 0; j < 5; j++) {
             if (i == j) {
-                matriz[i][j] = 1; // Diagonal principal
+                matriz[i][j] = 1; 
             } else {
-                matriz[i][j] = 0; // Demais elementos
+                matriz[i][j] = 0;
             }
         }
     }
 
-    // Exibição da matriz
     printf("Matriz 5x5 com diagonal principal preenchida com 1 e demais elementos com 0:\n");
     for (int i = 0; i < 5; i++) {
         for (int j = 0; j < 5; j++) {

@@ -7,7 +7,6 @@ int main() {
     int vetor[10];
     int countPares = 0;
 
-    // Leitura dos valores
     for (int i = 0; i < 10; i++) {
         printf("Digite o valor %d: ", i + 1);
         scanf("%d", &vetor[i]);
@@ -16,7 +15,6 @@ int main() {
         }
     }
 
-    // Exibição do resultado
     printf("Quantidade de valores pares armazenados: %d\n", countPares);
 
     return 0;

@@ -1,14 +1,16 @@
 #include <stdio.h>
 #include <stdlib.h>
 
+/*Escreva um programa que leia um número inteiro e depois o imprima.*/
+
 int main()
 {
+    int numero;
 
-    int num;
+    printf("Digite um número inteiro: ");
+    scanf("%d", &numero);
 
-    printf("Digite um n�mero inteiro: ");
-    scanf("%d", &num);
-    printf("O numero digitado foi: %d\n", num);
+    printf("O número digitado foi: %d\n", numero);
 
     return 0;
     

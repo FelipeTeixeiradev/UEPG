@@ -19,7 +19,7 @@ int main() {
 
     if(opcao < 1 || opcao > 4) {
         printf("Opção inválida.\n");
-        return 1; // Exit with error
+        return 1; 
     }
 
     printf("Digite dois números: ");
@@ -41,7 +41,7 @@ int main() {
         case 4:
             if(num2 == 0) {
                 printf("Erro: Divisão por zero não é permitida.\n");
-                return 1; // Exit with error
+                return 1; 
             }
             resultado = num1 / num2;
             printf("Resultado da divisão: %.2f\n", resultado);

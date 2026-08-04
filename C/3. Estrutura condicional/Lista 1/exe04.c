@@ -5,10 +5,10 @@ do teclado) é POSITIVO, NEGATIVO ou NULO.*/
 
 int main(){
 
-    int num1;
+    float num1;
     
     printf("Digite um número: ");
-    scanf("%d", &num1);
+    scanf("%f", &num1);
 
     if(num1 > 0){
         printf("O número digitado é POSITIVO.");

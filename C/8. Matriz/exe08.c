@@ -9,7 +9,6 @@ A[i][j] = 4i^3 + 5j^2 + 1 se i &gt; j*/
 int main() {
     int A[10][10];
 
-    // Preenchimento da matriz de acordo com as condições fornecidas
     for (int i = 0; i < 10; i++) {
         for (int j = 0; j < 10; j++) {
             if (i < j) {
@@ -22,7 +21,6 @@ int main() {
         }
     }
 
-    // Exibição da matriz
     printf("Matriz A:\n");
     for (int i = 0; i < 10; i++) {
         for (int j = 0; j < 10; j++) {
